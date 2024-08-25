@@ -6,6 +6,7 @@
     "start": "node node_modules/react-native/local-cli/cli.js start"
   },
   "dependencies": {
+    "expo": "^51.0.31",
     "react-native": "0.75.2"
   }
 }

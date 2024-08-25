@@ -1,5 +1,10 @@
-Install dependencies by running: \n
-sudo chmod +x install_npm.sh \n
-sudo chmod +x install_yarn.sh \n
-./install_npm.sh \n
-./install_yarn.sh \n
+Install dependencies by running:
+
+sudo chmod +x install_npm.sh
+
+sudo chmod +x install_yarn.sh
+
+./install_npm.sh
+
+./install_yarn.sh
+

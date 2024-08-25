@@ -4,7 +4,7 @@ sudo chmod +x npm_install.sh
 
 sudo chmod +x yarn_install.sh
 
-./install_npm.sh
+./npm_install.sh
 
-./install_yarn.sh
+./yarn_install.sh
 

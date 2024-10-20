@@ -10,6 +10,8 @@ npm install react-native-screens react-native-safe-area-context
 # Install Stack Navigator for navigation
 npm install @react-navigation/stack
 
+npm install @react-native-async-storage/async-storage
+
 # Optional: Install TypeScript (if using TypeScript)
 npm install typescript @types/react @types/react-native
 

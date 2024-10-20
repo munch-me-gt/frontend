@@ -10,14 +10,6 @@ type Props = {
 };
 
 const WelcomeScreen: React.FC<Props> = ({ navigation }) => {
-  useEffect(() => {
-    const timer = setTimeout(() => {
-      navigation.replace('Home');
-    }, 3000);
-
-    return () => clearTimeout(timer);
-  }, [navigation]);
-
   return (
     <View style={styles.container}>
       <Image source={require('../assets/munch-logo.png')} style={styles.logo} />

@@ -3,9 +3,12 @@
   "version": "0.0.1",
   "private": true,
   "scripts": {
-    "start": "node node_modules/react-native/local-cli/cli.js start"
+    "start": "node node_modules/react-native/local-cli/cli.js start",
+    "android": "expo run:android",
+    "ios": "expo run:ios"
   },
   "dependencies": {
+    "@react-native-async-storage/async-storage": "^2.0.0",
     "@react-navigation/native": "^6.1.18",
     "@react-navigation/stack": "^6.4.1",
     "@types/react": "~18.2.79",
